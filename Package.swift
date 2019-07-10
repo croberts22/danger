@@ -7,8 +7,8 @@ let package = Package(
     name: "Makoto",
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/danger/swift.git", from: "1.5.6"),
-        
+        .package(url: "https://github.com/danger/swift.git", from: "1.6.4"),
+
         // Danger Plugins
         .package(url: "https://github.com/f-meloni/danger-swift-xcodesummary.git", from: "0.1.0")
     ],
